@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Los Angeles Mountains</title>
+  <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0">
+  <meta name="description" content="A Schedule site for Los Angeles mountain treks">
+  <link rel="icon" type="image/x-icon" href="/assets/images/logo-icon.png">
+  <link rel="stylesheet" href="./index.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+<body>
+  <div class="page-section sectiona">
+    <div class="top-bar">
+      <div class="icon-image">
+        <div class="zoom"><a href="#"><img class="icon" src="./assets/images/logo-icon.png" alt="icon" /></a></div>
+      </div>
+      <div class="links-top">
+        <div class="zoom"><a class="links-display" href="#history-1">01. HISTORY</a></div>
+        <div class="zoom"><a class="links-display" href="#climb-1">02. TEAM</a></div>
+      </div>
+    </div>
+
+  </div>
+  <div id="navbar" class="non-sticky">
+    <div class="logoholder">
+      <div class="zoom"><a href="#"><img class="logo" src="./assets/images/Logo.png" alt="logo" /></a></div>
+    </div>
+
+    <div class="hyperlinks-menu">
+      <div class="zoom"><a class="hyperlinks-display" href="#history-1">01. HISTORY</a></div>
+      <div class="zoom"><a class="hyperlinks-display" href="#climb-1">02. TEAM</a></div>
+    </div>
+  </div>
+  <div class="page-section section-b">
+    <div class="sectionb-banner">
+
+      <div class="banner-text">
+        <div class="banner-title">
+          <h1 class="titlehead titles" id="history-1">01.</h1>
+          <h1 class="titlehead subtitle">HISTORY</h1>
+        </div>
+      </div>
+      <p class="description-banner">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante
+        viverra, rutrum erat rutrum, consectetur mi. Proin at <br />
+        maximus est. Nullam purus ex, iaculis sed erat sed, blandit tincidunt
+        quam. Cras scelerisque id quam sed dignissim <br />
+        Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam.
+        Vivamus suscipit dignissim tortor nec congue.
+      </p>
+
+      <div class="carousel-holder">
+        <div class="col-12">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators" id="slideholder"></ol>
+            <div class="carousel-inner" id="holder"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="open-section section-c">
+    <div class="textholder">
+      <div class="next-bannertext">
+        <div class="banner-title">
+          <h1 class="titlehead titles" id="climb-1">02.</h1>
+          <h1 class="titlehead subtitle">CLIMB</h1>
+        </div>
+      </div>
+      <p class="nextdescription-banner">
+        Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam.
+        Vivamus suscipit dignissim tortor nec congue.
+      </p>
+    </div>
+    <div class="tab-holder">
+      <div class="tabspace" id="tabspace">
+        <div class="tab-contents">
+          <div class="tab-title activeColor" id="mount1" onclick="clickedMount('mount1')">
+            MOUNTAIN 1
+          </div>
+          <div class="display-climb-mobile" id="displayClimbMobile1">
+          </div>
+        </div>
+        <div class="tab-contents">
+          <div class="tab-title" id="mount2" onclick="clickedMount('mount2')">
+            MOUNTAIN 2
+          </div>
+          <div class="display-climb-mobile" id="displayClimbMobile2">
+          </div>
+        </div>
+      </div>
+      <div class="display-climb-image" id="displayClimb">
+      </div>
+    </div>
+    <footer id="footer">
+    </footer>
+    <script src="./index.js" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"></script>
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+
+</html>

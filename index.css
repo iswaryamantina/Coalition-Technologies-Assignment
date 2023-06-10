@@ -1,0 +1,506 @@
+body,
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  position: relative;
+}
+
+.page-section {
+  height: 100vh;
+}
+
+.sectiona {
+  background: url("./assets/images/main.png") no-repeat;
+  background-size: cover;
+}
+
+.section-b {
+  height: 105vh;
+}
+
+.section-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.non-sticky {
+  position: absolute;
+}
+
+#navbar {
+  background-color: #ffffff;
+  width: 100%;
+  height: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.top-bar {
+  position: absolute;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 8rem;
+  padding-right: 7rem;
+  width: 100%;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("./assets/fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("./assets/fonts/Oswald-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Lato Light";
+  src: url("./assets/fonts/Lato-Light.ttf");
+}
+
+@font-face {
+  font-family: "Lato Black Italic";
+  src: url("./assets/fonts/Lato-BlackItalic.ttf");
+}
+
+.section-b {
+  position: relative;
+  background: url("./assets/images/First-picture.png") no-repeat;
+  background-size: cover;
+}
+
+.section-c {
+  position: relative;
+}
+
+.display-climb-mobile {
+  display: none;
+}
+
+.sectionc-banner {
+  position: relative;
+  background-size: cover;
+  height: 100vh;
+}
+
+.schedules {
+  position: relative;
+  top: 8rem;
+  left: 8rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 35rem;
+}
+
+.scheduledTitle {
+  font-size: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.scheduled-font {
+  color: #000000;
+  font-family: "Lato Light", sans-serif;
+  font-size: 1.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-top: 0;
+  top: 20rem;
+}
+
+.row-table {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-text {
+  position: absolute;
+  top: 5rem;
+  padding-left: 8rem;
+}
+
+.next-bannertext {
+  padding-left: 8rem;
+}
+
+.banner-title {
+  display: flex;
+  align-items: center;
+}
+
+.description-banner {
+  color: #000000;
+  font-family: "Lato Light", sans-serif;
+  font-size: 1.5rem;
+  padding-left: 13rem;
+  padding-right: 8rem;
+  margin-top: 0;
+  top: 17rem;
+  position: absolute;
+}
+
+.carousel-indicators li {
+  width: 0.5rem !important;
+  height: 0.5rem !important;
+  border-radius: 50%;
+  top: 2.5rem !important;
+  right: 8rem !important;
+}
+
+.carousel-holder {
+  background-color: rgba(65, 79, 107, 0.85);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 2rem;
+  padding-left: 25rem;
+}
+
+.zoom {
+  transition: transform 0.2s;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.img-display {
+  padding-left: 1rem;
+  z-index: 100;
+  width: 10rem;
+}
+
+.titlehead {
+  font-family: "Oswald", sans-serif;
+  color: #414f6b;
+}
+
+.subtitle {
+  font-size: 3rem;
+  margin-bottom: 0;
+  margin-left: -2rem;
+  margin-top: 2rem;
+}
+
+.open-section {
+  position: relative;
+  background-size: cover;
+  height: 100vh;
+}
+
+.tab-holder {
+  margin-top: 1rem;
+  background-color: #414f6b;
+  align-items: center;
+}
+
+.tabspace {
+  display: flex;
+  padding-left: 8rem;
+}
+
+.textholder {
+  display: flex;
+  align-items: center;
+}
+
+.tab-title {
+  color: #b0b4be;
+  font-size: 1.5rem;
+  font-family: "Oswald", sans-serif;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.nextdescription-banner {
+  color: #000000;
+  font-family: "Lato Light", sans-serif;
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin-top: 0;
+}
+
+.titles {
+  font-size: 10rem;
+  opacity: 0.5;
+  margin-bottom: 0;
+}
+
+.links-display {
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  font-style: italic;
+  padding-right: 3rem;
+}
+
+.links-display:hover {
+  color: #ffffff;
+}
+
+.links-top {
+  display: flex;
+}
+
+.hyperlinks-menu {
+  display: flex;
+}
+
+.hyperlinks-display {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-weight: bolder;
+  padding-right: 3rem;
+  color: #414f6b;
+}
+
+.hyperlinks-display:hover {
+  color: #414f6b;
+}
+
+.hide {
+  display: none;
+}
+
+.activeColor {
+  background-color: #b0b4be;
+  color: #414f6b;
+}
+
+.footer {
+  background-color: #414f6b;
+  font-family: "Lato Black Italic", sans-serif;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #63769d;
+  display: flex;
+  justify-content: space-between;
+
+  padding-bottom: 0rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .carousel-holder {
+    padding-left: 10rem;
+  }
+
+  .carousel-indicators {
+    padding-left: 10rem !important;
+  }
+
+  .description-banner {
+    margin-top: 0;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
+  .img-display {
+    width: 8rem;
+    padding-left: 0.2rem;
+  }
+
+  .carousel-indicators li {
+    right: 8rem !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .carousel-indicators li {
+    right: 8rem !important;
+  }
+
+  .sectiona {
+    background-position: 40% 75% !important;
+  }
+
+  .section-b {
+    background-position: 40% 75%;
+  }
+
+  .top-bar {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .links-display {
+    font-size: 0.8rem;
+  }
+
+  #navbar {
+    padding-left: 1rem;
+    padding-right: 0;
+  }
+
+  .logo {
+    width: 8rem;
+  }
+
+  .hyperlinks-display {
+    font-size: 0.7rem;
+    display: flex;
+  }
+
+  .banner-text {
+    padding-left: 1rem;
+    top: 5rem;
+  }
+
+  .carousel-indicators {
+    padding-left: 13rem !important;
+    display: -webkit-box !important;
+  }
+
+  .next-bannertext {
+    padding-left: 1rem;
+  }
+
+  .nextdescription-banner {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .carousel-holder {
+    padding-left: 1rem;
+  }
+
+  .tabspace {
+    padding-left: 0rem;
+    flex-direction: column;
+  }
+
+  .tab-title {
+    font-size: 1rem;
+  }
+
+  .description-banner {
+    font-size: 1rem;
+    font-weight: 700;
+    padding-left: 3rem;
+    padding-right: 1rem;
+    top: 10rem;
+  }
+
+  .scheduledTitle {
+    font-size: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .schedules {
+    width: 21rem;
+    top: 3rem;
+    left: 1rem;
+  }
+
+  .scheduled-font {
+    font-size: 0.9rem;
+    padding-left: 1rem;
+  }
+
+  .footer-text {
+    font-size: 0.7rem;
+  }
+
+  .footer-img {
+    width: 8rem;
+  }
+
+  .img-display {
+    width: 4.6rem;
+    padding-left: 0.2rem;
+  }
+
+  .footer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    align-items: unset;
+    padding-bottom: 0rem;
+  }
+
+  .titles {
+    font-size: 4rem;
+  }
+
+  .subtitle {
+    font-size: 2rem;
+    margin-left: -1rem;
+    margin-top: 0;
+  }
+}
+
+.sectionc-banner {
+  background-position: 40% 75% !important;
+  height: 80vh;
+}
+
+@media screen and (max-width: 324px) {
+  .carousel-indicators li {
+    right: 8rem !important;
+  }
+
+  .schedules {
+    width: 16rem;
+  }
+
+  .scheduled-font {
+    font-size: 0.7rem;
+  }
+
+  .img-display {
+    width: 3.8rem;
+  }
+
+  .links-display {
+    font-size: 0.7rem;
+  }
+
+  .carousel-indicators {
+    padding-left: 12rem !important;
+    display: -webkit-box !important;
+  }
+
+  .hyperlinks-display {
+    font-size: 0.6rem;
+  }
+
+  .logo {
+    width: 6rem;
+  }
+
+  .icon {
+    width: 2rem;
+  }
+
+  .footer-img {
+    width: 6rem;
+  }
+
+  .footer-text {
+    font-size: 0.5rem;
+  }
+}
